@@ -1,2 +1,2 @@
 # knn
-this is a machine learning method for find neighbors
+knn class & knn with scikit learn
