@@ -77,9 +77,12 @@ model = KNeighborsClassifier(n_neighbors=5, algorithm='brute', weights='uniform'
 model.fit(x_train, y_train)
 predictions = model.predict(x_test)
 print('Scikit accuracy:', accuracy_score(y_test, predictions))
-
 ##########################################################################################
+
 from math import inf
+
+
+
 class KNN:
     def __init__(self, k):
         self.k = k
@@ -134,5 +137,4 @@ model = KNN(k=5)
 model.fit(x_train, y_train)
 predictions = model.predict(x_test)
 print('My accuracy:', accuracy_score(y_test, predictions))
-
 
